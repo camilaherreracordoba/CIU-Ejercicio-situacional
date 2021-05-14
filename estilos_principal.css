@@ -1,0 +1,79 @@
+.tarjeta {
+    position: relative;
+    border: 1px solid #0A0909;
+    width: 960px;
+    height: 360px;
+    left: 240px;
+    top: 302px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cuadrado {
+    position: absolute;
+    text-align: center;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    right: 60%;
+    background: #000000;
+    border-radius: 10px;
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cuadradoDerecha {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    bottom: 0%;
+    right: 0%;
+
+    border-radius: 10px;
+    color: black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#vencimiento {
+    top: 80%;
+    bottom: 0px auto;
+    font-size: small;
+}
+#asociadas {
+    font-size: 18px;
+}
+#porcentaje {
+    font-size: 64px;
+}
+#descuento {
+    font-size: 32px;
+}
+
+.barra_inf{
+    position: relative;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 905px;
+    background-color: #0A0909;
+    color: white;
+    
+    text-align: left; 
+}
+
+#boton_retorno {
+    position:absolute;
+    right: 10%;
+    top: 30%;
+    background: #FEE227;
+    border: 1px solid #0A0909;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-variant: small-caps;
+    border-radius: 5px;
+}
+
